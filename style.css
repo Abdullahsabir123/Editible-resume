@@ -1,0 +1,119 @@
+body {
+    background-color: #eaf0f8;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .container-1,
+  #preview-content {
+    max-width: 850px;
+    margin: auto;
+    padding: 30px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+    background-color: #ffffff;
+  }
+  .resume-heading,
+  .preview-heading {
+    color: #333;
+    font-size: 2.8rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .resume-sub-headings {
+    color: #0275d8;
+    font-weight: 600;
+    margin-top: 1.8rem;
+    font-size: 1.7rem;
+  }
+  .resume-text,
+  .preview-text {
+    background-color: #f3f6fb;
+    border: 1px solid #e0e0e0;
+    padding: 15px;
+    border-radius: 8px;
+    color: #555;
+    line-height: 1.8;
+    font-size: 1.1rem;
+  }
+  .image {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin-top: -40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 3px solid #fff;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .section {
+    margin-bottom: 20px;
+  }
+  .inpt {
+    border-radius: 8px;
+    background-color: #f3f6fb;
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    color: #333;
+    transition: border 0.3s;
+    border: 1px solid #ccc;
+  }
+  .inpt:focus {
+    border-color: #0275d8;
+    box-shadow: 0 0 5px rgba(2, 117, 216, 0.3);
+    outline: none;
+  }
+
+  .btn-submit {
+    width: 100%;
+    background-color: #0275d8;
+    color: #fff;
+    border: none;
+    padding: 15px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+  }
+  .btn-submit:hover {
+    background-color: #0056b3;
+  }
+  /* Style the preview content */
+  #preview-content {
+    border-radius: 12px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+
+  .preview-heading {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .preview-section {
+    margin-bottom: 20px;
+  }
+
+  .preview-sub-heading {
+    font-size: 1.6rem;
+    color: #0056b3;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+
+  .preview-text {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #e0e0e0;
+    color: #555;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
